@@ -1,4 +1,4 @@
-#traffic
+# Traffic
 
 The goal of this project was to find the most dangerous intersections in Manhattan and try to make some nice looking visualizations.  The data that I use, **NYPD_Motor_Vehicle_Collisions.csv**, documents all collisions in New York City between July 2012 and January 2015.  It gives the location of each accident in the form of latitude and longitude and also indicates if either a pedestrian or cyclist was affected.  I estimate the the danger level, defined by accidents per unit time, at every location using kernel density estimation.  The highest peaks of the estimated density will reveal the most dangerous intersections.
 
