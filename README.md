@@ -6,4 +6,4 @@ The goal of this project was to find the most dangerous intersections in Manhatt
 
 **dangerVis.R** produces visualizations.  I put longitude on the horizontal axis, latitude on the vertical and plot every collision.  There are enough accidents that the shape of Manhattan is clearly discernible.  I then overlay the estimated danger level.  I use a color gradient or heat map to indicate areas of more or less danger, so more dangerous areas are redder in color.  Finally, I overlay a small number of large blue dots that correspond to the most dangerous points on the map.  I again split Manhattan into upper and lower and have separate maps for all accidents, those involving pedestrians, and those involving cyclists.  These can be found in the **viz** folder.
 
-Read **Manhattan_Traffic.pdf** for the final results.
+Read **Manhattan_Traffic.pdf** for a summary of methodology and results.
